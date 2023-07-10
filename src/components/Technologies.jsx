@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CardTechnologies from './Card/CardTechnologies'
+import CardTechnologies from './card/CardTechnologies'
 
 
 const Technologies = () => {
