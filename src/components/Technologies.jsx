@@ -30,11 +30,30 @@ const Technologies = () => {
       style: "text-purple-400 bx bxl-tailwind-css",
       border: "shadow-purple-400"
     },
-    
     {
       name: "Node.js",
       style: "text-green-400 bx bx bxl-nodejs",
       border: "shadow-green-400"
+    },
+    {
+      name: "Php",
+      style: "text-blue-400 bx bxl-php",
+      border: "shadow-blue-400"
+    },
+    {
+      name: "PostgreSQL",
+      style: "text-orange-400 bx bxl-postgresql",
+      border: "shadow-orange-400"
+    },
+    {
+      name: "Typescript",
+      style: "text-cyan-600 bx bxl-typescript",
+      border: "shadow-cyan-600"
+    },
+    {
+      name: "C++",
+      style: "text-blue-800 bx bxl-c-plus-plus",
+      border: "shadow-blue-800"
     }
   ]
     return (
