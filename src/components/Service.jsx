@@ -7,13 +7,13 @@ const Service = () => {
       id: 1,
       title: 'Frontend Development',
       text: 'Utilizo React y Next.js para aplicaciones frontend. Puedo trabajar con CSS, Tailwind, Styled Components para diseñar.',
-      img: '/public/img/Fronted.png'
+      img: '/img/Fronted.png'
     },
     {
       id: 2,
       title: 'Backend Development',
       text: 'Utilizo Node para el backend. Puedo trabajar con Express, MongoDB, Postgres para Bases de Datos.',
-      img: '/public/img/Backed.png'
+      img: '/img/Backed.png'
     }
   ]
   return (
