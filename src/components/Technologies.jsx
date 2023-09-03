@@ -7,51 +7,51 @@ const Technologies = () => {
   const technologies = [
    {
       name: "HTML",
-      img: '/public/img/html-svgrepo-com.svg',
+      img: '/img/html-svgrepo-com.svg',
     },
     {
       name: "CSS",
-      img: '/public/img/css-3-svgrepo-com.svg',
+      img: '/img/css-3-svgrepo-com.svg',
     },
     {
       name: "JavaScript",
-      img: '/public/img/javascript-svgrepo-com.svg',
+      img: '/img/javascript-svgrepo-com.svg',
     },
     {
       name: "React",
-      img: '/public/img/react-svgrepo-com.svg',
+      img: '/img/react-svgrepo-com.svg',
     },
     {
       name: "Tailwind",
-      img: '/public/img/tailwind-svgrepo-com.svg',
+      img: '/img/tailwind-svgrepo-com.svg',
     },
     {
       name: "Node.js",
-      img: '/public/img/nodejs-svgrepo-com.svg',
+      img: '/img/nodejs-svgrepo-com.svg',
     },
     {
       name: "Php",
-      img: '/public/img/php-svgrepo-com.svg',
+      img: '/img/php-svgrepo-com.svg',
     },
     {
       name: "PostgreSQL",
-      img: '/public/img/postgresql-svgrepo-com.svg',
+      img: '/img/postgresql-svgrepo-com.svg',
     },
     {
       name: "Typescript",
-      img: '/public/img/typescript-svgrepo-com.svg',
+      img: '/img/typescript-svgrepo-com.svg',
     },
     {
       name: "Postman",
-      img: '/public/img/postman-icon-svgrepo-com.svg',
+      img: '/img/postman-icon-svgrepo-com.svg',
     },
     {
       name: "Python",
-      img: '/public/img/python-svgrepo-com.svg',
+      img: '/img/python-svgrepo-com.svg',
     },
     {
       name: "Bash",
-      img: '/public/img/bash-icon-svgrepo-com.svg',
+      img: '/img/bash-icon-svgrepo-com.svg',
     }
   ]
     return (

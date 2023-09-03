@@ -6,7 +6,6 @@ import { addDataSubmit, changeIsShowProject } from '../../store/slices/infoProje
 
 const CardProject = ({ project }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [data, setData] = useState([])
   const [ref, inView] = useInView({
     threshold: 1, // Ajusta el umbral según tus necesidades
   });
@@ -24,11 +23,7 @@ const CardProject = ({ project }) => {
   const handleDataSubmit = () => {
     dispatch(addDataSubmit(project))
   }
-
-  const handleClickChangeProject = () => {
-    dispatch(changeIsShowProject())
-  }
-
+  console.log(typeof(project.image))
   return (
     <>
       <section onClick={handleDataSubmit} ref={ref} className={`grid items-center justify-center text-center grid-cols-2 w-[270px] h-[180px] bg-slate-200/10 rounded-md hover:w-[290px] hover:h-[200px] transition-all duration-500 ${inView ? 'opacity-100' : 'opacity-0'} cursor-pointer ${isHovered ? 'w-[290px] h-[200px]' : ''}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
