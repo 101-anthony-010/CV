@@ -7,6 +7,8 @@ import Technologies from '../components/Technologies'
 import Footer from '../layouts/Footer'
 import Contact from '../components/Contact'
 import Menu from '../components/Menu'
+import Service from '../components/Service'
+import Project from '../components/card/Project'
 
 const HomePage = () => {
   return (
@@ -14,8 +16,9 @@ const HomePage = () => {
       <Header/>
       <Menu/>
       <Home/>
-      <About/>
+      <Service/>
       <Projects/>
+      <Project/>
       <Technologies/>
       <Contact/>
       <Footer/>

@@ -7,61 +7,59 @@ const Technologies = () => {
   const technologies = [
    {
       name: "HTML",
-      style: "text-orange-500 bx bxl-html5",
-      border: "shadow-orange-500"
+      img: '/public/img/html-svgrepo-com.svg',
     },
     {
       name: "CSS",
-      style: "text-sky-500 bx bxl-css3",
-      border: "shadow-sky-500"
+      img: '/public/img/css-3-svgrepo-com.svg',
     },
     {
       name: "JavaScript",
-      style: "text-yellow-400 bx bxl-javascript",
-      border: "shadow-yellow-400"
+      img: '/public/img/javascript-svgrepo-com.svg',
     },
     {
       name: "React",
-      style: "text-sky-300 bx bxl-react",
-      border: "shadow-sky-300"
+      img: '/public/img/react-svgrepo-com.svg',
     },
     {
       name: "Tailwind",
-      style: "text-purple-400 bx bxl-tailwind-css",
-      border: "shadow-purple-400"
+      img: '/public/img/tailwind-svgrepo-com.svg',
     },
     {
       name: "Node.js",
-      style: "text-green-400 bx bx bxl-nodejs",
-      border: "shadow-green-400"
+      img: '/public/img/nodejs-svgrepo-com.svg',
     },
     {
       name: "Php",
-      style: "text-blue-400 bx bxl-php",
-      border: "shadow-blue-400"
+      img: '/public/img/php-svgrepo-com.svg',
     },
     {
       name: "PostgreSQL",
-      style: "text-orange-400 bx bxl-postgresql",
-      border: "shadow-orange-400"
+      img: '/public/img/postgresql-svgrepo-com.svg',
     },
     {
       name: "Typescript",
-      style: "text-cyan-600 bx bxl-typescript",
-      border: "shadow-cyan-600"
+      img: '/public/img/typescript-svgrepo-com.svg',
     },
     {
-      name: "C++",
-      style: "text-blue-800 bx bxl-c-plus-plus",
-      border: "shadow-blue-800"
+      name: "Postman",
+      img: '/public/img/postman-icon-svgrepo-com.svg',
+    },
+    {
+      name: "Python",
+      img: '/public/img/python-svgrepo-com.svg',
+    },
+    {
+      name: "Bash",
+      img: '/public/img/bash-icon-svgrepo-com.svg',
     }
   ]
     return (
-    <section id='technologies' className='max-w-[800px] flex justify-center items-center mx-auto pt-16'>
-      <section className='mx-6'>
-        <h2 className='text-3xl font-bold my-4 border-b-[5px] border-blue-500 w-full'>Tecnologias</h2>
+    <section id='technologies' className='flex justify-center items-center mx-auto pt-16'>
+      <section className='mx-6 flex flex-col justify-center items-center gap-2'>
+        <h2 className='text-3xl font-bold my-4'>Tecnologias</h2>
         <span>Estas son las tecnologías con las que he trabajado</span>
-        <section className='flex flex-wrap gap-6 m-4 justify-center items-center'>
+        <section className='flex flex-wrap gap-5 m-4 justify-center items-center'>
           {
             technologies.map(technology => <CardTechnologies key={technology.name} props={technology}/>)
           }

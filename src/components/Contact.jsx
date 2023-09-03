@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <section id='contact' className='max-w-[800px] flex flex-col justify-center items-center mx-auto pt-16'>
       <h2 className='text-3xl font-bold my-4 border-b-[5px] border-blue-500 w-[94%]'>Contacto</h2>
-      <section className='flex flex-col sm:flex-row gap-5 mx-4 bg-slate-200 dark:bg-black/80 rounded-md px-5 py-3 mt-1'>
+      <section className='flex flex-col sm:flex-row gap-5 mx-4 bg-slate-100 rounded-md px-5 py-3 mt-1'>
         <section className='flex gap-6 flex-col justify-center items-center px-6 w-[300px]'>
           <h4 className='font-semibold text-xl'>Ponerse en contacto</h4>
           <span>Soy muy accesible y me encantaría hablar contigo. No dude en llamar, enviarme un correo electrónico. Sígueme en las redes sociales o simplemente completa el formulario de consulta</span>
