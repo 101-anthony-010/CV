@@ -22,7 +22,7 @@ const Project = () => {
         <h4 className='font-semibold flex flex-wrap gap-2 items-center'>
           Tecnologías:
           {
-            project.technologies.map(technologie => <span className='p-1 font-light bg-slate-400/50 rounded-md'>{technologie}</span>)
+            project.technologies?.map(technologie => <span className='p-1 font-light bg-slate-400/50 rounded-md'>{technologie}</span>)
           }
         </h4>
         <div className='grid grid-cols-2 gap-4 text-center font-semibold'>
