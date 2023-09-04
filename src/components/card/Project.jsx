@@ -10,7 +10,6 @@ const Project = () => {
   const handleClickChangeProject = () => {
     dispatch(changeIsShowProject())
   }
-  console.log(project.technologies)
   return (
     <main onClick={handleClickChangeProject} className={`${isShowProject ? "block" : "hidden"} bg-black/10 z-40 fixed flex justify-center items-center w-full h-full top-0`}>
       <section className='relative p-8 bg-white rounded-md grid gap-3'>
