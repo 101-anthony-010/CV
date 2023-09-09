@@ -7,7 +7,7 @@ const Footer = () => {
       <span>• Copyright ©2023 | All rights reserved •</span>
       <section className='flex gap-4 text-3xl'>
         <a href="https://github.com/101-anthony-010"><i className='hover:text-blue-500 animate-bounce transition-colors bx bxl-github cursor-pointer'></i></a>
-        <a href=""><i className='hover:text-blue-500 animate-bounce transition-colors bx bxl-linkedin-square cursor-pointer'></i></a>
+        <a href="https://www.linkedin.com/in/antony-gonzales-campos-9aa335191/"><i className='hover:text-blue-500 animate-bounce transition-colors bx bxl-linkedin-square cursor-pointer'></i></a>
         <a href="https://wa.me/51960915888"><i className='hover:text-blue-500 animate-bounce transition-colors bx bxl-whatsapp cursor-pointer'></i></a>
       </section>
     </section>

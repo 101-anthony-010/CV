@@ -6,7 +6,6 @@ const Project = () => {
   const { isShowProject, project } = useSelector(store => store.projectSlice)
 
   const dispatch = useDispatch()
-
   const handleClickChangeProject = () => {
     dispatch(changeIsShowProject())
   }
