@@ -56,6 +56,15 @@ const Projects = () => {
       technologies: ['React', 'JavaScript', 'API', 'Tailwind', 'Axios', 'Redux'],
       demo: 'https://majestic-trifle-b1cf7e.netlify.app/',
       code: 'https://github.com/101-anthony-010/Entregable-6'
+    },
+    {
+      id: 7,
+      image: '/img/Travling.png',
+      title: 'Travling',
+      text: 'Pagina de Viajes llamada Travling fullstack contruido con react y node.js donde le doy mantenimiento remoto',
+      technologies: ['React', 'API', 'Tailwind', 'Axios', 'Redux', 'FireBase'],
+      demo: 'https://main--glistening-cucurucho-9cf328.netlify.app/',
+      code: 'https://github.com/101-anthony-010/Travling-Front'
     }
 ]
   const projectsCount = projects.length;
@@ -94,7 +103,7 @@ const Projects = () => {
         <h3 className='mx-auto text-3xl font-bold my-4'>Mis Proyectos</h3>
         <div className='flex flex-wrap gap-4 m-4 justify-center items-center max-w-[1000px] relative'>
           <div onClick={showNext} className='hover:cursor-pointer text-blue-500 absolute top-1/2 -left-8 -translate-y-1/2 text-3xl'>
-            <i className='bx bx-skip-previous' ></i>
+            <i className='animate-pulse bx bx-skip-previous' ></i>
           </div>
           {
             visibleProjectsIndices.map((index) => (
@@ -102,7 +111,7 @@ const Projects = () => {
           ))
           }
           <div onClick={showPrevious} className='hover:cursor-pointer text-blue-500 absolute top-1/2 -right-8 -translate-y-1/2 text-3xl'>
-            <i className='bx bx-skip-next'></i>
+            <i className='animate-pulse bx bx-skip-next'></i>
           </div>
         </div>
       </section>
