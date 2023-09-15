@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { Link as ScrollLink } from 'react-scroll';
 import { changeIsShowMenu } from '../store/slices/menu.slice'
+import DarkMode from '../utils/DarkMode';
 
 const Header = () => {
   const dispatch = useDispatch()
@@ -11,11 +12,12 @@ const Header = () => {
   }
 
   return (
-    <section className={`gap-10 py-4 shadow-md fixed top-0 w-full z-10 bg-white`}>
+    <section className={`gap-10 py-4 shadow-md dark:shadow-blue-500 dark:shadow-sm fixed top-0 w-full z-10 bg-white dark:bg-black dark:text-white`}>
       {/* <div className='absolute top-0 left-0 text-2xl z-30'>
         <i onClick={handleClinkThemeChange} className={`transition-all duration-200 absolute top-5 left-5 ${theme === 'dark' ? 'opacity-100' : 'opacity-0'} cursor-pointer bx bx-moon`}></i>
         <i onClick={handleClinkThemeChange} className={`transition-all duration-200 absolute top-5 left-5 opacity-0 ${theme === 'dark' ? 'opacity-0' : 'opacity-100'} cursor-pointer bx bx-sun`}></i>
       </div> */}
+      <div><DarkMode/></div>
       <div className='flex justify-center gap-4 mx-auto opacity-0 sm:opacity-100 z-20'>
         <ScrollLink className='text-xl cursor-pointer font-semibold hover:bg-blue-500/50 px-3 py-1 rounded-md' to="home" smooth={true} duration={800}>Home</ScrollLink>
         <ScrollLink className='text-xl cursor-pointer font-semibold hover:bg-blue-500/50 px-3 py-1 rounded-md' to="service" smooth={true} duration={800}>Service</ScrollLink>
