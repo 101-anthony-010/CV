@@ -5,7 +5,7 @@ import React from 'react'
 const Home = () => {
   const descargarCV = () => {
     try {
-      const archivoCVURL = '/cv/Antony Gonzales (1).pdf'; // Reemplaza con la ruta correcta
+      const archivoCVURL = '/cv/Antony Gonzales (2).pdf'; // Reemplaza con la ruta correcta
 
       saveAs(archivoCVURL, 'Antony_Gonzales_CV.pdf'); // Nombre del archivo que se descargará
     } catch (error) {
