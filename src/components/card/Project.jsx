@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { changeIsShowProject } from '../../store/slices/infoProject.slice'
 
@@ -24,8 +24,14 @@ const Project = () => {
           }
         </h4>
         <div className='grid grid-cols-2 gap-4 text-center font-semibold'>
-          <a href={project.code} className='px-5 py-2 bg-blue-500 rounded-md text-white font-semibold'>Codigo</a>
-          <a href={project.demo} className='px-5 py-2 bg-blue-500 rounded-md text-white font-semibold'>Pagina</a>
+          <div className={`grid ${project.url?.length === 2 ? 'grid-cols-2' : 'grid-cols-1'} gap-2`}>
+            {
+              project.url?.map( link =>
+                  <a href={link.url} key={link.id} className='px-5 py-2 bg-blue-500 rounded-md text-white font-semibold'>{link.name}</a>
+                ) 
+            }
+          </div>
+          <a href={project.url} className='px-5 py-2 bg-blue-500 rounded-md text-white font-semibold'>Pagina</a>
         </div>
         <button className='p-2 right-0 cursor-pointer absolute hover:text-red-500 text-xl'><i className='bx bx-x'></i></button>
       </section>

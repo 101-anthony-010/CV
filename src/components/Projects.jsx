@@ -10,7 +10,13 @@ const Projects = () => {
       text: 'Pagina de Galleta de la fortuna donde nos muestra un mensaje completamente alatorio',
       technologies: ['React', 'JavaScript', 'API', 'Tailwind'],
       demo: 'https://visionary-monstera-df893a.netlify.app/',
-      code: 'https://github.com/101-anthony-010/Entregable-1'
+      url: [
+        { 
+          id: 1,
+          name: "Frontend",
+          url: "https://github.com/101-anthony-010/Entregable-1",
+        },
+      ]
     },
     {
       id: 2,
@@ -19,7 +25,13 @@ const Projects = () => {
       text: 'Pagina del clima creada con react con consumo de API y ubicacion en tiempo real',
       technologies: ['React', 'JavaScript', 'API', 'Tailwind', 'Axios'],
       demo: 'https://gilded-haupia-e48cbb.netlify.app/',
-      code: 'https://github.com/101-anthony-010/Entregable-2'
+      url: [
+        { 
+          id: 1,
+          name: "Frontend",
+          url: "https://github.com/101-anthony-010/Entregable-2",
+        },
+      ]
     },
     {
       id: 3,
@@ -28,7 +40,13 @@ const Projects = () => {
       text: 'Pagina de Pokedex donde puedes ver todos los pokemones por especies o por su nombre',
       technologies: ['React', 'React Router', 'JavaScript', 'API', 'Tailwind', 'Axios'],
       demo: 'https://voluble-semifreddo-20a944.netlify.app/',
-      code: 'https://github.com/101-anthony-010/Entregable-3'
+      url: [
+        { 
+          id: 1,
+          name: "Frontend",
+          url: "https://github.com/101-anthony-010/Entregable-3",
+        },
+      ]
     },
     {
       id: 4,
@@ -37,7 +55,13 @@ const Projects = () => {
       text: 'Pagina creado con React donde simula Creado, Actualizacion, Lectura y Borrado de datos',
       technologies: ['React', 'JavaScript', 'Tailwind','API'],
       demo: 'https://cheery-valkyrie-8ab7fa.netlify.app/',
-      code: 'https://github.com/101-anthony-010/Entregable-4'
+      url: [
+        { 
+          id: 1,
+          name: "Frontend",
+          url: "https://github.com/101-anthony-010/Entregable-4",
+        },
+      ]
     },
     {
       id: 5,
@@ -46,7 +70,13 @@ const Projects = () => {
       text: 'Pagina de Rick and Morty creado con react donde muestra todos los personajes de la series y tambien puedes buscar',
       technologies: ['React', 'JavaScript', 'API', 'Tailwind', 'Hooks', 'Axios'],
       demo: 'https://glowing-moonbeam-28b3c6.netlify.app/',
-      code: 'https://github.com/101-anthony-010/Entregable-5'
+      url: [
+        { 
+          id: 1,
+          name: "Frontend",
+          url: "https://github.com/101-anthony-010/Entregable-5",
+        },
+      ]
     },
     {
       id: 6,
@@ -55,7 +85,13 @@ const Projects = () => {
       text: 'Un E-commerce creado con React donde simula la compra de productos en tiempo real',
       technologies: ['React', 'JavaScript', 'API', 'Tailwind', 'Axios', 'Redux'],
       demo: 'https://majestic-trifle-b1cf7e.netlify.app/',
-      code: 'https://github.com/101-anthony-010/Entregable-6'
+      url: [
+        { 
+          id: 1,
+          name: "Frontend",
+          url: "https://github.com/101-anthony-010/Entregable-6",
+        },
+      ]
     },
     {
       id: 7,
@@ -64,7 +100,18 @@ const Projects = () => {
       text: 'Pagina de Viajes llamada Travling fullstack contruido con react y node.js donde le doy mantenimiento remoto',
       technologies: ['React', 'API', 'Tailwind', 'Axios', 'Redux', 'FireBase'],
       demo: 'https://main--glistening-cucurucho-9cf328.netlify.app/',
-      code: 'https://github.com/101-anthony-010/Travling-Front'
+      url: [
+        { 
+          id: 1,
+          name: "Frontend",
+          url: "https://github.com/101-anthony-010/Travling-Front",
+        },
+        { 
+          id: 2,
+          name: "Backend",
+          url: "https://github.com/101-anthony-010/Travling-Back",
+        }
+      ]
     }
 ]
   const projectsCount = projects.length;
