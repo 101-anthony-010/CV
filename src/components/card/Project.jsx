@@ -31,7 +31,7 @@ const Project = () => {
                 ) 
             }
           </div>
-          <a href={project.url} className='px-5 py-2 bg-blue-500 rounded-md text-white font-semibold'>Pagina</a>
+          <a href={project.demo} className='px-5 py-2 bg-blue-500 rounded-md text-white font-semibold'>Pagina</a>
         </div>
         <button className='p-2 right-0 cursor-pointer absolute hover:text-red-500 text-xl'><i className='bx bx-x'></i></button>
       </section>
